@@ -1,10 +1,13 @@
 var colors = [
-  'red',
-  'orange',
-  'yellow',
-  'green',
-  'blue',
-  'purple'
+  '#ff3366',
+  '#ff6633',
+  '#FFCC33',
+  '#33FF66',
+  '#33FFCC',
+  '#33CCFF',
+  '#3366FF',
+  '#6633FF',
+  '#CC33FF',
 ];
 
 function makeBoxes(howMany) {
