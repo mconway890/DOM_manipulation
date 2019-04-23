@@ -1,23 +1,31 @@
 .box {
   display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
+  width: 126px;
+  height: 180px;
   float: left;
   margin: 5px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 
 h2 {
   text-align: center;
 }
 
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {
+  ...
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+  ...
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+  ...
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+  ...
+}
